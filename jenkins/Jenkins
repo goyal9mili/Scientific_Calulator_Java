@@ -34,8 +34,10 @@ pipeline {
         }
         }
         }
-    	stages{
+    	stage('Docker Image Creation and push'){
     	agent none
+    	stages{
+    	
         stage('Building docker image'){
         steps{
         	script{
@@ -57,7 +59,7 @@ pipeline {
                 sh "docker rmi $registry:$BUILD_NUMBER" 
             }
         }
-        }  
+        }
 
     }
 }
