@@ -1,3 +1,4 @@
+USER root
 RUN curl -fsSLO https://get.docker.com/builds/Linux/x86_64/docker-17.04.0-ce.tgz \
   && tar xzvf docker-17.04.0-ce.tgz \
   && mv docker/docker /usr/local/bin \
@@ -11,4 +12,4 @@ COPY target/Course_Project-1.0-SNAPSHOT.jar /demo.jar
 
 # set the startup command to execute the jar
 CMD ["java", "-jar", "/demo.jar"]
-
+	
