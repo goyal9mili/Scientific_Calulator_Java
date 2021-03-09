@@ -3,6 +3,7 @@ pipeline {
         registry = "goyal9mili" 
         registryCredential = 'dockerhub_id' 
         dockerImage = '' 
+        }
 
 
     agent {
