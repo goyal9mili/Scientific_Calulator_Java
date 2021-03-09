@@ -35,7 +35,7 @@ pipeline {
         }
         }
     	stage('Docker Image Creation and push'){
-    	agent none
+    	agent any
     	stages{
     	
         stage('Building docker image'){
