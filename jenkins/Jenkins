@@ -62,9 +62,8 @@ pipeline {
         }
 
     }
-    stages{
-    agent any
     stage('Execute Rundeck job') {
+    	agent any
         steps {
           script {
             step([$class: "RundeckNotifier",
@@ -77,6 +76,6 @@ pipeline {
           }
         }
     }
-    }
+    
 }
 }
