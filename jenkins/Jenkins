@@ -62,5 +62,21 @@ pipeline {
         }
 
     }
+    stages{
+    agent any
+    stage('Execute Rundeck job') {
+        steps {
+          script {
+            step([$class: "RundeckNotifier",
+                  includeRundeckLogs: true,
+                  jobId: "0757ebe5-39bd-46fa-a20c-d8651a7e635f",
+                  rundeckInstance: "Rundeck",
+                  shouldFailTheBuild: true,
+                  shouldWaitForRundeckJob: true,
+                  tailLog: true])
+          }
+        }
+    }
+    }
 }
 }
