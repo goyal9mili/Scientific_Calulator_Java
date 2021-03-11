@@ -71,6 +71,9 @@ pipeline {
                   jobId: "0757ebe5-39bd-46fa-a20c-d8651a7e635f",
                   rundeckInstance: "Rundeck",
                   shouldFailTheBuild: true,
+                  options:"""
+                  Tag = $BUILD_NUMBER
+                  """,
                   shouldWaitForRundeckJob: true,
                   tailLog: true])
           }
