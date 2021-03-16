@@ -1,7 +1,9 @@
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.lang.Math;
 
 public class Calculator {
-
     public static double log(double num) {
 
         if(num < 0)
