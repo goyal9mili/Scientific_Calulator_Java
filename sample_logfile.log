@@ -1,0 +1,41 @@
+16/Mar/2021:17:51:04 257 [Main.java] [INFO] Main Performing square root function
+16/Mar/2021:17:51:20 296 [Main.java] [INFO] Main Operation -----> square_root(2.0)
+16/Mar/2021:17:51:20 297 [Main.java] [INFO] Main Result = 1.4142135623730951
+16/Mar/2021:17:51:23 714 [Main.java] [INFO] Main exiting the application
+16/Mar/2021:23:17:41 965 [Main.java] [INFO] Main Performing square root function
+16/Mar/2021:23:17:45 633 [Main.java] [INFO] Main Operation -----> square_root(4.0)
+16/Mar/2021:23:17:45 634 [Main.java] [INFO] Main Result = 2.0
+16/Mar/2021:23:17:48 730 [Main.java] [INFO] Main Performing factorial function
+16/Mar/2021:23:17:49 770 [Main.java] [INFO] Main Operation -----> fact(4.0)
+16/Mar/2021:23:17:49 771 [Main.java] [INFO] Main Result = 24.0
+16/Mar/2021:23:17:55 125 [Main.java] [INFO] Main Performing logarithmic function
+16/Mar/2021:23:17:58 100 [Main.java] [INFO] Main Operation -----> log(6.4)
+16/Mar/2021:23:17:58 101 [Main.java] [INFO] Main Result = 1.8562979903656263
+16/Mar/2021:23:18:01 477 [Main.java] [INFO] Main Performing power function
+16/Mar/2021:23:18:05 593 [Main.java] [INFO] Main Operation -----> power(5.0, 5.0)
+16/Mar/2021:23:18:05 593 [Main.java] [INFO] Main Result = 3125.0
+16/Mar/2021:23:18:10 184 [Main.java] [INFO] Main Performing logarithmic function
+16/Mar/2021:23:18:11 818 [Main.java] [ERROR] Main Negative inout entered : Invalid
+16/Mar/2021:23:18:14 329 [Main.java] [INFO] Main Performing factorial function
+16/Mar/2021:23:18:15 492 [Main.java] [INFO] Main Operation -----> fact(3.0)
+16/Mar/2021:23:18:15 493 [Main.java] [INFO] Main Result = 6.0
+16/Mar/2021:23:18:16 332 [Main.java] [INFO] Main Performing factorial function
+16/Mar/2021:23:18:17 319 [Main.java] [INFO] Main Operation -----> fact(7.0)
+16/Mar/2021:23:18:17 320 [Main.java] [INFO] Main Result = 5040.0
+16/Mar/2021:23:18:19 545 [Main.java] [INFO] Main Performing square root function
+16/Mar/2021:23:18:21 944 [Main.java] [ERROR] Main Negative inout entered : Invalid
+16/Mar/2021:23:18:23 375 [Main.java] [INFO] Main Performing square root function
+16/Mar/2021:23:18:25 454 [Main.java] [INFO] Main Operation -----> square_root(90.0)
+16/Mar/2021:23:18:25 455 [Main.java] [INFO] Main Result = 9.486832980505138
+16/Mar/2021:23:18:29 321 [Main.java] [ERROR] Main the operator is not correct..select again
+16/Mar/2021:23:18:33 126 [Main.java] [ERROR] Main the operator is not correct..select again
+16/Mar/2021:23:18:34 802 [Main.java] [INFO] Main Performing power function
+16/Mar/2021:23:18:37 670 [Main.java] [INFO] Main Operation -----> power(4.0, 4.0)
+16/Mar/2021:23:18:37 671 [Main.java] [INFO] Main Result = 256.0
+16/Mar/2021:23:18:39 128 [Main.java] [INFO] Main Performing power function
+16/Mar/2021:23:18:40 933 [Main.java] [INFO] Main Operation -----> power(6.0, 7.0)
+16/Mar/2021:23:18:40 934 [Main.java] [INFO] Main Result = 279936.0
+16/Mar/2021:23:18:42 802 [Main.java] [INFO] Main Performing logarithmic function
+16/Mar/2021:23:18:46 265 [Main.java] [INFO] Main Operation -----> log(3.0)
+16/Mar/2021:23:18:46 266 [Main.java] [INFO] Main Result = 1.0986122886681098
+16/Mar/2021:23:18:48 797 [Main.java] [INFO] Main exiting the application
